@@ -7,7 +7,7 @@ rutaOUT = 'D:/'
 
 def initialize():
     global empresas_list
-    f = open(str(os.path.dirname(os.path.realpath(__file__))) + '/database/Empresas.txt','r')
+    f = open(str(os.path.dirname(os.path.realpath(__file__))) + '/database/Empresas.txt','r', encoding='utf8')
     empresas_list = f.read().split(',')
     empresas_list.sort()
     f.close()
