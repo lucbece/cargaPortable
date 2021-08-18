@@ -1,0 +1,15 @@
+// Manual de Usuario //
+
+-Ingresar fecha de extracción en formato AAAA-MM-DD.
+
+-Las muestras se ingresan de a una por línea, con el tipo de análisis separado por coma. Ejemplos:
+
+muestra1,4
+muestra2,4
+.
+.
+.
+muestraN,4
+
+- NO usar coma (",") dentro del nombre de un equipo. En caso de haber una, reemplazar por "-"
+
